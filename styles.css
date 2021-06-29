@@ -37,7 +37,7 @@ button#todo-submit {
 #todo-input {
   font-size: 16px;
   padding: 0.25rem;
-  width: 80%;
+  width: 50%;
 }
 .todo-list {
   list-style: none;
@@ -45,4 +45,15 @@ button#todo-submit {
 .empty {
   margin: 1.5em 0;
   opacity: 0.8;
+}
+.todo-list li {
+  margin: 10px;
+}
+
+.new {
+  cursor: pointer;
+}
+
+.tachado {
+  text-decoration: line-through;
 }
